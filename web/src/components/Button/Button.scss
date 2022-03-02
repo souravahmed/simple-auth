@@ -1,0 +1,21 @@
+.btn {
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 1rem;
+  height: 2rem;
+  white-space: nowrap;
+  cursor: pointer;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+.btn-round {
+  padding: 1.3rem 4rem;
+}
+
+.btn-action {
+  background-color: orange;
+  color: blue;
+}

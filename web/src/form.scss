@@ -1,0 +1,54 @@
+.form-container {
+  width: 100%;
+  max-width: 30%;
+}
+.input-control {
+  border-radius: 24px;
+  border: 1px solid #e1e1e1;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  outline: none;
+  width: 100%;
+  display: block;
+  &:focus {
+    border: 2px solid black;
+  }
+}
+
+.input-label {
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+  span {
+    font-size: 25px;
+    color: blue;
+  }
+}
+
+.input-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  .error {
+    color: red;
+    font-size: 10px;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}
+.form-btn-container {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.form-footer-container {
+  margin: 1.5rem 0;
+}
+
+.form-register-title {
+  display: flex;
+  padding-bottom: 1.5rem;
+}
